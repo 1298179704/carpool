@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/find/find",
+    "pages/offer/offer"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#288",
+    "navigationBarTitleText": "深技大拼车",
+    "navigationBarTextStyle": "light",
+    "enablePullDownRefresh":true
+  }
+}
