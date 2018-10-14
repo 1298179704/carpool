@@ -1,13 +1,7 @@
 <!--index.wxml-->
-<view class="map-container">
-<map longitude="{{longitude}}"latitude="{{latitude}}" scale="16" class="map" show-location></map>              
-</view>
 <view class="btns">
-  <view class="btn btn-offer">发布</view>
-  <view class ="btn">主页</view>
-  <view class ="btn btn-find">寻找</view>
+  <view class="btn">首页</view>
+  <view class ="btn btn-publish">发布</view>
+  <view class ="btn btn-mine">我的</view>
 </view>
-<cover-view class="controls">
-  <cover-image class="img" src="/resource/locate.eps" />>
 
-</cover-view>
