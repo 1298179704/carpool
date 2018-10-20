@@ -1,9 +1,11 @@
 {
   "pages": [
+    "pages/register/register",
     "pages/index/index",
     "pages/find/find",
     "pages/mine/mine",
     "pages/publish/publish"
+    
   ],
   "window": {
     "backgroundTextStyle": "dark",

@@ -1,7 +1,12 @@
 <!--index.wxml-->
 <view class="btns">
-  <view class="btn">首页</view>
-  <view class ="btn btn-publish">发布</view>
-  <view class ="btn btn-mine">我的</view>
+  <view class="btn" bindtap='goindex'>首页</view>
+  <view class ="btn btn-publish" bindtap='gopublish'>发布</view>
+  <view class ="btn" btn-mine bindtap='gomine'>我的</view>
 </view>
-
+<input class="From" placeholder='出发点' bindinput='Fromchange'></input>
+<input class="To" placeholder='目的地' bindinput='Tochange'></input>
+<view class="search" bindtap='search'>搜索</view>
+<input class="content" value="{{list}}"></input>
+<view class="project1"></view>
+<view class="project2"></view>

@@ -1,0 +1,5 @@
+<view class="btns">
+  <view class="btn" bindtap='goindex'>首页</view>
+  <view class ="btn btn-publish" bindtap='gopublish'>发布</view>
+  <view class ="btn" btn-mine bindtap='gomine'>我的</view>
+</view>

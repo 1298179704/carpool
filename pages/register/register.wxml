@@ -1,0 +1,25 @@
+
+<view>
+ <view class="row">
+    <label title-account>学号</label>
+   <view class="info-account">
+    <input  bindinput="AChange"  placeholder="请准确输入11位学号"></input>
+   </view>   
+ </view>
+
+ <view class="row">
+   <label class="info-name">姓名</label>
+    <input  bindinput="NChange"  placeholder= "姓名和学号必须匹配"></input>
+ </view>
+ 
+ <view class="row">
+   <label class="info-phonenumber">绑定手机</label>
+    <input   bindinput="PNChange"  placeholder='手机号'></input>
+ 
+ </view>
+</view>
+<view class="submit-btn" bindtap="Submit"  >提交信息</view>
+
+
+
+
